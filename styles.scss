@@ -1,0 +1,50 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    width: 600px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(53, 53, 53);
+    color: chartreuse;
+    &:hover{
+        background-color: black;
+        transition: 4s;
+    }
+}
+ 
+input{
+    outline: none;
+    border: none;
+    width: 95%;
+    height: 50px;
+    &:focus{
+        border: chartreuse 2px solid;
+    }
+}
+
+button{
+    outline: none;
+    border: none;
+    width: 95%;
+    height: 50px;
+    &:hover{
+        background-color: black;
+        color: chartreuse;
+        border: chartreuse 2px solid ;
+        transition: 4s;
+    }
+}
+
+*{
+    margin: none;
+    padding: none;
+    box-sizing: border-box;
+    font-size: 30px;
+}
